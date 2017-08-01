@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/giris1"
+        android:scaleType="fitXY"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+
+
+            android:textSize="22dp"
+            android:textColor="#f4eded"
+            android:padding="9dp"
+            android:hint="İsim"
+            android:gravity="left"
+
+            android:layout_centerInParent="true"
+
+            android:textColorHint="#f4eded"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giriş yap"
+            android:id="@+id/button2"
+            android:textSize="22dp"
+            android:background="#62b441"
+            android:textColor="#cfc9c9"
+            android:padding="9dp"
+            android:layout_below="@+id/editText5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

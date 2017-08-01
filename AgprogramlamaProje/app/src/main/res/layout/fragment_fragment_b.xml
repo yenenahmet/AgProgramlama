@@ -1,0 +1,236 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yenen.agprogramlamaproje.FragmentB"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Agrubu_Liner"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img_profil_Özelmesaj"
+            android:src="#90c3df" />
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="35dp"
+                android:text="A"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A GRUBU ÜYELERİ"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:textSize="13dp"
+                android:textColor="#F50057"
+                />
+
+
+            <TextView
+                android:text="Baş Harfi A olan Kullanıcılara Ait olan bir grubtur"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:id="@+id/Grub_SonMesajA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#6e5e5e" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bgrubu_Liner"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+
+                android:src="#F50057" />
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="35dp"
+                android:text="B"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B GRUBU ÜYELERİ"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:textSize="13dp"
+                android:textColor="#29688a"
+                />
+
+
+            <TextView
+                android:text="Baş Harfi B olan Kullanıcılara Ait olan bir grubtur"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:id="@+id/Grub_SonMesajB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#6e5e5e" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cgrubu_Liner"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+
+                android:src="#c12fc6" />
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="35dp"
+                android:text="C"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C GRUBU ÜYELERİ"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:textSize="13dp"
+                android:textColor="#7e1986"
+                />
+
+
+            <TextView
+                android:text="Baş Harfi A olan Kullanıcılara Ait olan bir grubtur"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:id="@+id/Grub_SonMesajC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#6e5e5e" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tümgrubu_Liner"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:src="#90c3df" />
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="35dp"
+                android:text="T"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunucuya Bağlı TÜM Kullanıcılar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:textSize="13dp"
+                android:textColor="#F50057"
+                />
+
+
+            <TextView
+                android:text="Sunucuya Bağlı Tüm Kullanıcılar Konuşmaları Görebilir"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#6e5e5e" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
